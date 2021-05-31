@@ -7,7 +7,6 @@ import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 import BackspaceIcon from '@material-ui/icons/Backspace';
 import ClearAllIcon from '@material-ui/icons/ClearAll';
 import { ButtonGroup, Button } from "@material-ui/core"
-import Delete from '@material-ui/icons/Delete';
 
 
 function Todo() {
@@ -38,7 +37,6 @@ function Todo() {
                     list.map((ele) => {
                         return (
                             <div className="mt-3 " key={ele.id}>
-
                                 <Button
                                     variant="outlined"
                                     endIcon={<BackspaceIcon
